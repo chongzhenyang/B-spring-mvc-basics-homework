@@ -7,6 +7,8 @@ import java.util.List;
 
 public interface UserService {
     void createUser(User user);
+
     User validateUser(String username, String password);
+
     List<User> users();
 }
